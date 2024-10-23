@@ -1,7 +1,7 @@
 # Fraudify  
-🔍 **Fraudify**: Simplifying fraud detection by visualizing and analyzing transaction patterns.
+**Fraudify**: Simplifying fraud detection by visualizing and analyzing transaction patterns.
 
-## 📋 Project Overview
+##Project Overview
 Fraud detection is essential in the financial industry, where fraudulent transactions pose significant risks. **Fraudify** explores patterns and relationships between transaction data using various visualizations to identify trends and anomalies that can indicate fraudulent behavior.
 
 This project analyzes transaction data through:
@@ -11,7 +11,7 @@ This project analyzes transaction data through:
 - **Time-series bar charts for hourly fraud activity**
 - **Bar charts comparing fraud and non-fraud transactions across states**
 
-## 📊 Visualizations Included
+##Visualizations Included
 ### 1. **Correlation Matrix**
 - **What it shows:**  
   Linear relationships between numeric features (e.g., `amt`, `city_pop`, `merch_lat`, and `merch_long`).  
@@ -42,7 +42,7 @@ This project analyzes transaction data through:
 - **Purpose:**  
   Detects **geographic trends** and helps in focusing fraud prevention efforts on high-risk regions.
 
-## 🛠️ Technologies Used
+##Technologies Used
 - **Python**: Data manipulation and analysis
 - **Pandas**: For data wrangling and preprocessing
 - **NumPy**: For numerical operations
